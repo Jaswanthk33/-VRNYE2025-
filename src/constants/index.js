@@ -1,6 +1,7 @@
 // import { singingBandVideo } from "../utils";
 // import singingBandVideo from '/assets/videos/singingBand.mp4'
 import djVideo from '/assets/videos/DJ.mp4'
+import singingBandVideo from '/assets/videos/singingband.mp4'
 import {
     blackImg,
     blueImg,
@@ -21,7 +22,7 @@ import {
         "Musical Feast.",
         "Engage in the lively Performances.",
       ],
-      video: "public/assets/videos/singingBand.mp4",
+      video: singingBandVideo,
       videoDuration: 4,
     },
     {
