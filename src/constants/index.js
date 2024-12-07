@@ -2,6 +2,9 @@
 // import singingBandVideo from '/assets/videos/singingBand.mp4'
 import djVideo from '/assets/videos/DJ.mp4'
 import singingBandVideo from '/assets/videos/singingband.mp4'
+import instagram from "/assets/images/instagram.png";
+import whatsapp from "/assets/images/whatsapp.png";
+
 import {
     blackImg,
     blueImg,
@@ -133,13 +136,13 @@ export const socials = [
         {
           id: "0",
           title: "Instagram",
-          iconUrl: "public/assets/images/instagram.png",
+          iconUrl: instagram,
           url: "https://www.instagram.com/vibrantentertainments/",
         },
         {
           id: "1",
           title: "Whatsapp",
-          iconUrl: "public/assets/images/whatsapp.png",
+          iconUrl: whatsapp,
           url: "https://www.whatsapp.com/channel/0029VayVZKrFi8xawFT20F1c",
         },
     ];
