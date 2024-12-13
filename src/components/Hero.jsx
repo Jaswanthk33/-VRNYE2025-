@@ -158,7 +158,7 @@ const Hero = () => {
             </div>
             <div className="flex items-center justify-center space-x-2 bg-gray-900/50 p-3 rounded-lg">
               <MapPin className="h-5 w-5 text-yellow-400" />
-              <span className="text-sm sm:text-base">K V S Sports Park, Tummalagunta</span>
+              <span className="text-sm sm:text-base">Subhash Chandra Bose Statue Ground, Tirupati</span>
             </div>
           </div>
 
