@@ -188,10 +188,17 @@ const VideoCarousel = () => {
               </div>
 
               <div className="absolute top-12 left-[5%] z-10">
-                {list.textLists.map((text, idx) => (
-                  <p key={idx} className="md:text-2xl text-xl font-medium">
-                    {text}
-                  </p>
+                {list.imageLists.map((image, idx) => (
+                  // <p key={idx} className="md:text-2xl text-xl font-medium">
+                  //   {text}
+                  // </p>
+                  <img 
+                    key={idx}
+                    src={image}
+                    alt={`Image ${idx}`}
+                    // className="w-full h-auto rounded-md"
+                    className="w-1/2 h-auto max-w-xs rounded-md"
+                  />
                 ))}
               </div>
             </div>

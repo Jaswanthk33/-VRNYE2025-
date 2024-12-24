@@ -35,7 +35,7 @@ const Features = () => {
     <section className="h-full common-padding bg-zinc relative overflow-hidden">
       <div className="screen-max-wdith">
         <div className="mb-12 w-full">
-          <h1 id="features_title" className="section-heading">F&B Stalls.</h1>
+          <h1 id="features_title" className="section-heading">F&B, Alcohol Stalls.</h1>
         </div>
         
         <div className="flex flex-col justify-center items-center overflow-hidden">
@@ -59,6 +59,9 @@ const Features = () => {
                 </div>
                 <div className="overflow-hidden flex-1 h-[50vh]">
                   <img src="./assets/images/zerofb.jpg" alt="titanium 2" className="feature-video g_grow" />
+                </div>
+                <div className="overflow-hidden flex-1 h-[50vh]">
+                  <img src="./assets/images/alcohol.jpeg" alt="titanium 2" className="feature-video g_grow" />
                 </div>
               </div>
 

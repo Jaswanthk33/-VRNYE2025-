@@ -4,6 +4,8 @@ import djVideo from '/assets/videos/DJ.mp4'
 import singingBandVideo from '/assets/videos/singingband.mp4'
 import instagram from "/assets/images/instagram.png";
 import whatsapp from "/assets/images/whatsapp.png";
+import arohiVideo from "/assets/videos/arohiband.mp4";
+
 
 import {
     blackImg,
@@ -21,16 +23,18 @@ import {
   export const hightlightsSlides = [
     {
       id: 1,
-      textLists: [
-        "Musical Feast.",
-        "Engage in the lively Performances.",
-      ],
-      video: singingBandVideo,
+      // textLists: [
+      //   "Musical Feast.",
+      //   "Engage in the lively Performances.",
+      // ],
+      // video: singingBandVideo,
+      imageLists: ["./assets/images/arohi-removebg-preview.png"],
+      video: arohiVideo,
       videoDuration: 4,
     },
     {
       id: 2,
-      textLists: ["DJ Night."],
+      imageLists: ["./assets/images/djlogo.jpeg"],
       video: djVideo,
       videoDuration: 4,
     },
