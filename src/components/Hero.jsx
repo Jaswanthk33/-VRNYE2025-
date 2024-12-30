@@ -161,14 +161,14 @@ const Hero = () => {
               <span className="text-sm sm:text-base">Subhash Chandra Bose Statue Ground, Tirupati</span>
             </div> */}
             <a
-              href="https://maps.app.goo.gl/MTbMZpbg6D1B9CCQ8"
+              href="https://maps.app.goo.gl/on3Ym8WLWXHi1Adk8"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center justify-center space-x-2 bg-gray-900/50 p-3 rounded-lg"
               aria-label="View location of Subhash Chandra Bose Statue Ground in Tirupati on Google Maps"
             >
-              <MapPin className="h-5 w-5 text-yellow-400" />
-              <span className="text-sm sm:text-base">Subhash Chandra Bose Grounds, Cotton Mill, Tirupati</span>
+              <MapPin className="h-10 w-10 text-yellow-400" />
+              <span className="text-sm sm:text-base">HighWay Shack Drive In, Chandragiri Tirupati highway, Tirupati</span>
             </a>
 
           </div>
